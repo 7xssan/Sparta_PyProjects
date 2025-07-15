@@ -71,4 +71,12 @@ name    |  Street  |    Town
 Hasan   | winsor terrace    | beckton
 
 
-## 
+## mermaid
+
+```mermaid
+pie title smartphone users
+    "Iphone" :60
+    "Samsung" :30'
+    "Pixel" :10
+    
+```
