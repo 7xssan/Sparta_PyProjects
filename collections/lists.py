@@ -35,11 +35,28 @@
 # 5.Ask the user for their height in cm and save it to the variable height
 # 6.Save height as a float in the list, and print the height from the list.
 
-name = input("enter your name: ")
-age = int(input("enter your age: "))
-DOB = input("enter your date of birth (dd/mm/yyyy):  ")
+# name = input("enter your name: ")
+# age = input("enter your age: ")
+# DOB = input("enter your date of birth (dd/mm/yyyy):  ")
+# height = input("enter your height (cm): ")
+#
+#
+# user_details_list = [name, age, DOB]
 
-user_details_list = [name, age, DOB]
+# user_details_list.append(height)  adding new height variable into list
 
+# user_details_list[-1] = float(user_details_list[-1])
+# user_details_list[1] = int(user_details_list[1])
+# print(type(user_details_list[1])) checks if index one variable is stored as integer
+# print(type(user_details_list[-1]))
+# print(user_details_list)
 
-print(user_details_list)
+#Returns the 2nd and 3rd items in the list -> It should return [2, 3]
+#Returns every second item in the list -> It should return [1, 3, 'two']
+#Start at the last item, stop at the 3rd last item, and step in reverse order -> It should return ['three', 'two']
+
+mixture = [1, 2, 3, "one", "two", "three"]
+
+print(mixture[1:3])
+print(mixture[::2])
+print(mixture[-1:-3:-1])
